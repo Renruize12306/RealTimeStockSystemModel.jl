@@ -1,0 +1,24 @@
+{
+    "input_json": [
+      {
+        "action": "auth",
+        "params": "t9aBscv_R5BGecynbrcTi7vnD5rSxt1I"
+      },
+      {
+        "action": "subscribe",
+        "params": "A.AMZN"
+      },
+      {
+        "action": "subscribe",
+        "params": "A.TSLA"
+      },
+      {
+        "action": "subscribe",
+        "params": "A.AAPL"
+      },
+      {
+        "action": "subscribe",
+        "params": "A.LMT"
+      }
+    ]
+  }

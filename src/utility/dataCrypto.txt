@@ -1,0 +1,167 @@
+store_time: 123 update frontend_time: 102
+begin: 63809393761969, after: 63809393762194, processing_time: 225, data: [{"ev":"XA","pair":"BTC-USD","v":32.16072187,"vw":20823.3984,"z":0,"o":20820.89,"c":20830.73,"h":20830.73,"l":20816.38,"s":1673728500000,"e":1673728560000}]
+store_time: 93 update frontend_time: 105
+begin: 63809393821968, after: 63809393822166, processing_time: 198, data: [{"ev":"XA","pair":"BTC-USD","v":30.58112239,"vw":20835.0415,"z":0,"o":20825,"c":20839.45,"h":20839.98,"l":20819.8,"s":1673728560000,"e":1673728620000}]
+store_time: 95 update frontend_time: 162
+begin: 63809393882065, after: 63809393882324, processing_time: 259, data: [{"ev":"XA","pair":"BTC-USD","v":14.14736308,"vw":20836.0605,"z":0,"o":20839.45,"c":20832.37,"h":20841.91,"l":20830.98,"s":1673728620000,"e":1673728680000}]
+store_time: 95 update frontend_time: 98
+begin: 63809393942083, after: 63809393942276, processing_time: 193, data: [{"ev":"XA","pair":"BTC-USD","v":46.00600856,"vw":20832.0627,"z":0,"o":20832.15,"c":20831.63,"h":20839.62,"l":20825.23,"s":1673728680000,"e":1673728740000}]
+store_time: 109 update frontend_time: 170
+begin: 63809394002094, after: 63809394002373, processing_time: 279, data: [{"ev":"XA","pair":"BTC-USD","v":49.72171876,"vw":20834.2932,"z":0,"o":20833.5,"c":20840.85,"h":20851.18,"l":20826.03,"s":1673728740000,"e":1673728800000}]
+store_time: 89 update frontend_time: 101
+begin: 63809394061999, after: 63809394062189, processing_time: 190, data: [{"ev":"XA","pair":"BTC-USD","v":14.88858509,"vw":20838.9828,"z":0,"o":20838.76,"c":20830.2,"h":20845,"l":20830.06,"s":1673728800000,"e":1673728860000}]
+store_time: 122 update frontend_time: 108
+begin: 63809394122006, after: 63809394122236, processing_time: 230, data: [{"ev":"XA","pair":"BTC-USD","v":22.46566633,"vw":20841.7343,"z":0,"o":20830.2,"c":20843.41,"h":20848.33,"l":20830.2,"s":1673728860000,"e":1673728920000}]
+store_time: 98 update frontend_time: 111
+begin: 63809394181982, after: 63809394182191, processing_time: 209, data: [{"ev":"XA","pair":"BTC-USD","v":31.52153723,"vw":20848.2475,"z":0,"o":20843.41,"c":20855.25,"h":20859,"l":20839.8,"s":1673728920000,"e":1673728980000}]
+store_time: 45 update frontend_time: 244
+begin: 63809394542055, after: 63809394542345, processing_time: 290, data: [{"ev":"XA","pair":"BTC-USD","v":20.54829774,"vw":20841.5845,"z":0,"o":20836.28,"c":20848.35,"h":20854,"l":20828.8,"s":1673729280000,"e":1673729340000}]
+store_time: 103 update frontend_time: 89
+begin: 63809394602062, after: 63809394602254, processing_time: 192, data: [{"ev":"XA","pair":"BTC-USD","v":16.90156048,"vw":20842.7055,"z":0,"o":20847.7,"c":20842.57,"h":20850,"l":20835.88,"s":1673729340000,"e":1673729400000}]
+store_time: 415 update frontend_time: 126
+begin: 63809394722076, after: 63809394722617, processing_time: 541, data: [{"ev":"XA","pair":"ETH-USD","v":124.12959457,"vw":1535.244,"z":0,"o":1534.85,"c":1534.77,"h":1535.73,"l":1534.7,"s":1673729460000,"e":1673729520000}]
+store_time: 41 update frontend_time: 98
+begin: 63809394722618, after: 63809394722758, processing_time: 140, data: [{"ev":"XA","pair":"BTC-USD","v":14.11991532,"vw":20839.5849,"z":0,"o":20836.41,"c":20833.39,"h":20846.85,"l":20830.97,"s":1673729460000,"e":1673729520000}]
+store_time: 85 update frontend_time: 102
+begin: 63809394782082, after: 63809394782269, processing_time: 187, data: [{"ev":"XA","pair":"ETH-USD","v":43.6782611,"vw":1534.6591,"z":0,"o":1534.86,"c":1534.68,"h":1535.1,"l":1534.41,"s":1673729520000,"e":1673729580000}]
+store_time: 40 update frontend_time: 96
+begin: 63809394782270, after: 63809394782406, processing_time: 136, data: [{"ev":"XA","pair":"BTC-USD","v":5.39054758,"v
+w":20834.604,"z":0,"o":20833.39,"c":20834.75,"h":20840,"l":20831.41,"s":1673729520000,"e":1673729580000}]
+store_time: 70 update frontend_time: 122
+begin: 63809394841980, after: 63809394842172, processing_time: 192, data: [{"ev":"XA","pair":"ADA-USD","v":35582.888258,"vw":0.34937999999999997,"z":1226,"o":0.3495,"c":0.3494,"h":0.3496,"l":0.3493,"s":1673729580000,"e":1673729640000}]
+store_time: 84 update frontend_time: 96
+begin: 63809394842173, after: 63809394842353, processing_time: 180, data: [{"ev":"XA","pair":"ETH-USD","v":86.67302838,"vw":1534.3456,"z":0,"o":1534.7,"c":1534.51,"h":1535,"l":1533.79,"s":1673729580000,"e":1673729640000}]
+store_time: 38 update frontend_time: 80
+begin: 63809394842354, after: 63809394842473, processing_time: 119, data: [{"ev":"XA","pair":"HBAR-USD","v":1650.4,"vw":0.05203,"z":825,"o":0.05203,"c":0.05204,"h":0.05204,"l":0.05203,"s":1673729580000,"e":1673729640000},{"ev":"XA","pair":"SOL-USD","v":1336.67293575,"vw":23.0713,"z":27,"o":23.08,"c":23.07,"h":23.1,"l":23.04,"s":1673729580000,"e":1673729640000}]
+store_time: 1866 update frontend_time: 101
+begin: 63809395021981, after: 63809395023948, processing_time: 1967, data: [{"ev":"XA","pair":"ADA-USD","v":38682.26,"vw":0.34989,"z":1208,"o":0.3497,"c":0.3499,"h":0.35,"l":0.3497,"s":1673729760000,"e":1673729820000}]
+store_time: 41 update frontend_time: 92
+begin: 63809395023950, after: 63809395024083, processing_time: 133, data: [{"ev":"XA","pair":"ETH-USD","v":97.06947127,"vw":1535.7188,"z":0,"o":1535.35,"c":1535.82,"h":1536.09,"l":1535.35,"s":1673729760000,"e":1673729820000}]
+store_time: 93 update frontend_time: 99
+begin: 63809395024084, after: 63809395024277, processing_time: 193, data: [{"ev":"XA","pair":"FET-USD","v":270.3,"vw":0.23900000000000002,"z":38,"o":0.2388,"c":0.239,"h":0.239,"l":0.2388,"s":1673729760000,"e":1673729820000}]
+store_time: 87 update frontend_time: 170
+begin: 63809395024277, after: 63809395024535, processing_time: 258, data: [{"ev":"XA","pair":"SOL-USD","v":3826.46344,"vw":23.1812,"z":53,"o":23.17,"c":23.19,"h":23.2,"l":23.16,"s":1673729760000,"e":1673729820000}]
+store_time: 71 update frontend_time: 115
+begin: 63809395082016, after: 63809395082203, processing_time: 187, data: [{"ev":"XA","pair":"HBAR-USD","v":5322.2,"vw":0.052115,"z":1064,"o":0.05213,"c":0.05214,"h":0.05214,"l":0.05211,"s":1673729820000,"e":1673729880000}]
+store_time: 82 update frontend_time: 82
+begin: 63809395082203, after: 63809395082367, processing_time: 164, data: [{"ev":"XA","pair":"UNI-USD","v":275.78572244,"vw":6.596,"z":25,"o":6.598,"c":6.595,"h":6.598,"l":6.59,"s":1673729820000,"e":1673729880000}]
+store_time: 41 update frontend_time: 91
+begin: 63809395082368, after: 63809395082501, processing_time: 133, data: [{"ev":"XA","pair":"XLM-USD","v":82095,"vw":0.08662399999999999,"z":1746,"o":0.086619,"c":0.086657,"h":0.086657,"l":0.086551,"s":1673729820000,"e":1673729880000}]
+store_time: 72 update frontend_time: 100
+begin: 63809395142023, after: 63809395142195, processing_time: 172, data: [{"ev":"XA","pair":"SOL-USD","v":3871.03814959,"vw":23.1983,"z":36,"o":23.2,"c":23.2,"h":23.22,"l":23.17,"s":1673729880000,"e":1673729940000}]
+store_time: 89 update frontend_time: 111
+begin: 63809395142196, after: 63809395142397, processing_time: 201, data: [{"ev":"XA","pair":"ADA-USD","v":3063.607671,"vw":0.35009999999999997,"z":180,"o":0.3502,"c":0.3502,"h":0.3502,"l":0.35,"s":1673729880000,"e":1673729940000}]
+store_time: 42 update frontend_time: 100
+begin: 63809395142397, after: 63809395142540, processing_time: 143, data: [{"ev":"XA","pair":"XLM-USD","v":52141.46663128,"vw":0.086626,"z":1448,"o":0.086645,"c":0.086623,"h":0.086647,"l":0.086584,"s":1673729880000,"e":1673729940000}]
+store_time: 39 update frontend_time: 91
+begin: 63809395142540, after: 63809395142670, processing_time: 130, data: [{"ev":"XA","pair":"HBAR-USD","v":2286.3,"vw":0.052085,"z":571,"o":0.05213,"c":0.05208,"h":0.05213,"l":0.05208,"s":1673729880000,"e":1673729940000}]
+store_time: 85 update frontend_time: 79
+begin: 63809395142671, after: 63809395142836, processing_time: 165, data: [{"ev":"XA","pair":"UNI-USD","v":309.95624,"vw":6.5972,"z":34,"o":6.596,"c":6.598,"h":6.598,"l":6.596,"s":1673729880000,"e":1673729940000}]
+store_time: 75 update frontend_time: 165
+begin: 63809395201980, after: 63809395202221, processing_time: 241, data: [{"ev":"XA","pair":"ADA-USD","v":39459.36460913,"vw":0.34987,"z":636,"o":0.3502,"c":0.3498,"h":0.3502,"l":0.3497,"s":1673729940000,"e":1673730000000}]
+store_time: 43 update frontend_time: 135
+begin: 63809395202222, after: 63809395202401, processing_time: 179, data: [{"ev":"XA","pair":"ETH-USD","v":275.69784081,"vw":1535.2309,"z":1,"o":1535.51,"c":1535.44,"h":1536.5,"l":1534.53,"s":1673729940000,"e":1673730000000}]
+store_time: 86 update frontend_time: 122
+begin: 63809395202401, after: 63809395202610, processing_time: 209, data: [{"ev":"XA","pair":"UNI-USD","v":20,"vw":6.589,"z":20,"o":6.589,"c":6.589,"h":6.589,"l":6.589,"s":1673729940000,"e":1673730000000}]
+store_time: 47 update frontend_time: 116
+begin: 63809395202615, after: 63809395202778, processing_time: 163, data: [{"ev":"XA","pair":"HBAR-USD","v":54499.99980835,"vw":0.052140000000000006,"z":2369,"o":0.05211,"c":0.05214,"h":0.05218,"l":0.05209,"s":1673729940000,"e":1673730000000}]
+store_time: 41 update frontend_time: 164
+begin: 63809395202779, after: 63809395202985, processing_time: 206, data: [{"ev":"XA","pair":"XLM-USD","v":24614.2,"vw":0.086525,"z":946,"o":0.086655,"c":0.086527,"h":0.086655,"l":0.0865,"s":1673729940000,"e":1673730000000}]
+store_time: 119 update frontend_time: 106
+begin: 63809395262038, after: 63809395262265, processing_time: 227, data: [{"ev":"XA","pair":"ETH-USD","v":165.45263003,"vw":1535.813,"z":0,"o":1535.41,"c":1535.9,"h":1536.69,"l":1535.11,"s":1673730000000,"e":1673730060000}]
+store_time: 42 update frontend_time: 108
+begin: 63809395262265, after: 63809395262415, processing_time: 150, data: [{"ev":"XA","pair":"BTC-USD","v":89.03717941,"vw":20882.947,"z":0,"o":20880.3,"c":20894.52,"h":20902.47,"l":20866,"s":1673730000000,"e":1673730060000}]
+store_time: 42 update frontend_time: 99
+begin: 63809395262416, after: 63809395262558, processing_time: 142, data: [{"ev":"XA","pair":"HBAR-USD","v":62917.1,"vw":0.052157,"z":3145,"o":0.05213,"c":0.05217,"h":0.05222,"l":0.05213,"s":1673730000000,"e":1673730060000}]
+store_time: 87 update frontend_time: 96
+begin: 63809395262558, after: 63809395262742, processing_time: 184, data: [{"ev":"XA","pair":"SOL-USD","v":3267.28447,"vw":23.1663,"z":39,"o":23.16,"c":23.15,"h":23.2,"l":23.15,"s":1673730000000,"e":1673730060000}]
+store_time: 42 update frontend_time: 98
+begin: 63809395262742, after: 63809395262882, processing_time: 140, data: [{"ev":"XA","pair":"UNI-USD","v":77.698696,"vw":6.5907,"z":15,"o":6.592,"c":6.59,"h":6.592,"l":6.59,"s":1673730000000,"e":1673730060000}]
+store_time: 767 update frontend_time: 199
+begin: 63809395441981, after: 63809395442947, processing_time: 966, data: [{"ev":"XA","pair":"ETH-USD","v":159.6979628,"vw":1534.8375,"z":0,"o":1535.14,"c":1534.41,"h":1535.51,"l":1534.29,"s":1673730180000,"e":1673730240000}]
+store_time: 45 update frontend_time: 73
+begin: 63809395442948, after: 63809395443066, processing_time: 118, data: [{"ev":"XA","pair":"HBAR-USD","v":21961.3,"vw":0.052064000000000006,"z":2745,"o":0.05206,"c":0.05209,"h":0.05209,"l":0.05204,"s":1673730180000,"e":1673730240000}]
+store_time: 142 update frontend_time: 97
+begin: 63809395443067, after: 63809395443307, processing_time: 240, data: [{"ev":"XA","pair":"BTC-USD","v":23.91982192,"vw":20874.6419,"z":0,"o":20880,"c":20868.48,"h":20886.1,"l":20867.63,"s":1673730180000,"e":1673730240000}]
+store_time: 44 update frontend_time: 90
+begin: 63809395443307, after: 63809395443441, processing_time: 134, data: [{"ev":"XA","pair":"SOL-USD","v":6485.55936901,"vw":22.9573,"z":45,"o":22.98,"c":22.93,"h":22.99,"l":22.93,"s":1673730180000,"e":1673730240000}]
+store_time: 50 update frontend_time: 79
+begin: 63809395501981, after: 63809395502111, processing_time: 130, data: [{"ev":"XA","pair":"ETH-USD","v":512.89338789,"vw":1532.6112,"z":0,"o":1534.41,"c":1533.21,"h":1535.5,"l":1531.43,"s":1673730240000,"e":1673730300000}]
+store_time: 55 update frontend_time: 106
+begin: 63809395502111, after: 63809395502273, processing_time: 162, data: [{"ev":"XA","pair":"HBAR-USD","v":80264.91729016,"vw":0.051886,"z":8026,"o":0.05199,"c":0.05192,"h":0.05199,"l":0.05186,"s":1673730240000,"e":1673730300000},{"ev":"XA","pair":"BTC-USD","v":98.74662551,"vw":20851.357,"z":0,"o":20869.34,"c":20848.5,"h":20886,"l":20831.92,"s":1673730240000,"e":1673730300000}]
+store_time: 1172 update frontend_time: 127
+begin: 63809395681985, after: 63809395683285, processing_time: 1300, data: [{"ev":"XA","pair":"SOL-USD","v":1092.8522198,"vw":22.917,"z":15,"o":22.94,"c":22.9,"h":22.97,"l":22.89,"s":1673730420000,"e":1673730480000}]
+store_time: 86 update frontend_time: 90
+begin: 63809395683286, after: 63809395683463, processing_time: 177, data: [{"ev":"XA","pair":"BTC-USD","v":34.54454944,"vw":20902.8265,"z":0,"o":20916,"c":20895.56,"h":20917,"l":20889,"s":1673730420000,"e":1673730480000}]
+store_time: 42 update frontend_time: 88
+begin: 63809395683463, after: 63809395683593, processing_time: 130, data: [{"ev":"XA","pair":"ETH-USD","v":194.77784866,"vw":1535.594,"z":0,"o":1536.16,"c":1534.73,"h":1536.4,"l":1534.66,"s":1673730420000,"e":1673730480000}]
+store_time: 40 update frontend_time: 85
+begin: 63809395741981, after: 63809395742106, processing_time: 125, data: [{"ev":"XA","pair":"ETH-USD","v":139.15554386,"vw":1535.0858,"z":0,"o":1534.73,"c":1535.01,"h":1535.59,"l":1534.61,"s":1673730480000,"e":1673730540000}]
+store_time: 86 update frontend_time: 66
+begin: 63809395742107, after: 63809395742260, processing_time: 153, data: [{"ev":"XA","pair":"SOL-USD","v":2830.31772,"vw":22.9505,"z":33,"o":22.91,"c":22.97,"h":22.99,"l":22.9,"s":1673730480000,"e":1673730540000}]
+store_time: 40 update frontend_time: 95
+begin: 63809395742260, after: 63809395742395, processing_time: 135, data: [{"ev":"XA","pair":"BTC-USD","v":20.24597031,"vw":20902.9151,"z":0,"o":20895.54,"c":20898.09,"h":20909.7,"l":20894.28,"s":1673730480000,"e":1673730540000}]
+store_time: 105 update frontend_time: 148
+begin: 63809395801997, after: 63809395802250, processing_time: 253, data: [{"ev":"XA","pair":"ETH-USD","v":117.84831455,"vw":1535.6582,"z":0,"o":1534.84,"c":1535.19,"h":1536.7,"l":1534.84,"s":1673730540000,"e":1673730600000}]
+store_time: 43 update frontend_time: 92
+begin: 63809395802251, after: 63809395802387, processing_time: 136, data: [{"ev":"XA","pair":"BTC-USD","v":19.6456074,"vw":20905.2431,"z":0,"o":20898.01,"c":20895.65,"h":20912.87,"l":20892.28,"s":1673730540000,"e":1673730600000}]
+store_time: 91 update frontend_time: 80
+begin: 63809395861982, after: 63809395862153, processing_time: 171, data: [{"ev":"XA","pair":"ETH-USD","v":98.70350501,"vw":1536.1106,"z":0,"o":1535.18,"c":1536.09,"h":1537.2,"l":1534.85,"s":1673730600000,"e":1673730660000}]
+store_time: 41 update frontend_time: 108
+begin: 63809395862154, after: 63809395862303, processing_time: 149, data: [{"ev":"XA","pair":"BTC-USD","v":31.79440556,"vw":20906.4913,"z":0,"o":20906.7,"c":20905.7,"h":20917.12,"l":20890.01,"s":1673730600000,"e":1673730660000}]
+store_time: 125 update frontend_time: 361
+begin: 63809395922354, after: 63809395922840, processing_time: 486, data: [{"ev":"XA","pair":"ETH-USD","v":528.37939958,"vw":1537.8708,"z":0,"o":1536.25,"c":1538.3,"h":1538.8,"l":1536.02,"s":1673730660000,"e":1673730720000}]
+store_time: 91 update frontend_time: 92
+begin: 63809395922841, after: 63809395923024, processing_time: 183, data: [{"ev":"XA","pair":"BTC-USD","v":126.07022098,"vw":20929.6877,"z":0,"o":20902.47,"c":20931.98,"h":20957,"l":20899.67,"s":1673730660000,"e":1673730720000}]
+store_time: 45 update frontend_time: 86
+begin: 63809395982037, after: 63809395982168, processing_time: 131, data: [{"ev":"XA","pair":"ETH-USD","v":199.40314794,"vw":1536.7754,"z":0,"o":1537.37,"c":1536.53,"h":1538.2,"l":1536.05,"s":1673730720000,"e":1673730780000}]
+store_time: 78 update frontend_time: 143
+begin: 63809396041999, after: 63809396042220, processing_time: 221, data: [{"ev":"XA","pair":"ETH-USD","v":304.4839258,"vw":1537.4484,"z":0,"o":1536.53,"c":1537.04,"h":1538.6,"l":1536.44,"s":1673730780000,"e":1673730840000}]
+store_time: 89 update frontend_time: 103
+begin: 63809396042221, after: 63809396042413, processing_time: 192, data: [{"ev":"XA","pair":"SOL-USD","v":5522.84629435,"vw":22.9317,"z":43,"o":22.93,"c":22.93,"h":22.97,"l":22.91,"s":1673730780000,"e":1673730840000}]
+store_time: 1323 update frontend_time: 153
+begin: 63809396161998, after: 63809396163474, processing_time: 1476, data: [{"ev":"XA","pair":"ETH-USD","v":447.16161782,"vw":1535.8502,"z":0,"o":1537.33,"c":1536.02,"h":1537.39,"l":1534.96,"s":1673730900000,"e":1673730960000}]
+store_time: 43 update frontend_time: 88
+begin: 63809396163475, after: 63809396163606, processing_time: 131, data: [{"ev":"XA","pair":"SOL-USD","v":4015.25605693,"vw":22.8743,"z":34,"o":22.94,"c":22.87,"h":22.96,"l":22.84,"s":1673730900000,"e":1673730960000}]
+store_time: 95 update frontend_time: 84
+begin: 63809396163607, after: 63809396163786, processing_time: 179, data: [{"ev":"XA","pair":"HBAR-USD","v":27601.8,"vw":0.052004999999999996,"z":1380,"o":0.05204,"c":0.05191,"h":0.05205,"l":0.05189,"s":1673730900000,"e":1673730960000}]
+store_time: 130 update frontend_time: 106
+begin: 63809396222066, after: 63809396222302, processing_time: 236, data: [{"ev":"XA","pair":"ETH-USD","v":199.59938755,"vw":1535.7065,"z":0,"o":1536.02,"c":1535.76,"h":1537,"l":1534.75,"s":1673730960000,"e":1673731020000}]
+store_time: 41 update frontend_time: 89
+begin: 63809396222304, after: 63809396222435, processing_time: 131, data: [{"ev":"XA","pair":"BTC-USD","v":25.3046446,"vw":20907.5327,"z":0,"o":20913.69,"c":20909.3,"h":20921,"l":20896.55,"s":1673730960000,"e":1673731020000}]
+store_time: 42 update frontend_time: 119
+begin: 63809396282073, after: 63809396282234, processing_time: 161, data: [{"ev":"XA","pair":"ETH-USD","v":92.43743163,"vw":1535.6498,"z":0,"o":1535.87,"c":1535.86,"h":1536.08,"l":1535.25,"s":1673731020000,"e":1673731080000}]
+store_time: 97 update frontend_time: 76
+begin: 63809396282235, after: 63809396282408, processing_time: 173, data: [{"ev":"XA","pair":"BTC-USD","v":12.13773651,"vw":20904.4345,"z":0,"o":20910.92,"c":20906.04,"h":20913,"l":20898.05,"s":1673731020000,"e":1673731080000}]
+store_time: 44 update frontend_time: 106
+begin: 63809396342001, after: 63809396342151, processing_time: 150, data: [{"ev":"XA","pair":"ETH-USD","v":105.72224003,"vw":1535.6958,"z":0,"o":1535.86,"c":1536.98,"h":1537.25,"l":1534.89,"s":1673731080000,"e":1673731140000}]
+store_time: 41 update frontend_time: 188
+begin: 63809396342152, after: 63809396342382, processing_time: 230, data: [{"ev":"XA","pair":"BTC-USD","v":27.34396656,"vw":20903.3173,"z":0,"o":20905.91,"c":20918.08,"h":20922,"l":20888.7,"s":1673731080000,"e":1673731140000}]
+store_time: 121 update frontend_time: 113
+begin: 63809396402089, after: 63809396402324, processing_time: 235, data: [{"ev":"XA","pair":"BTC-USD","v":42.15351445,"vw":20915.6279,"z":0,"o":20917.99,"c":20922.97,"h":20927.96,"l":20903.19,"s":1673731140000,"e":1673731200000}]
+store_time: 256 update frontend_time: 114
+begin: 63809396462096, after: 63809396462467, processing_time: 371, data: [{"ev":"XA","pair":"BTC-USD","v":19.51553944,"vw":20921.1397,"z":0,"o":20922.89,"c":20911.62,"h":20928.47,"l":20909.31,"s":1673731200000,"e":1673731260000}]
+store_time: 42 update frontend_time: 82
+begin: 63809396522103, after: 63809396522228, processing_time: 125, data: [{"ev":"XA","pair":"BTC-USD","v":17.84454673,"vw":20910.4861,"z":0,"o":20909.4,"c":20902.31,"h":20921,"l":20902.31,"s":1673731260000,"e":1673731320000}]
+store_time: 95 update frontend_time: 130
+begin: 63809396582110, after: 63809396582336, processing_time: 226, data: [{"ev":"XA","pair":"BTC-USD","v":31.39741562,"vw":20898.5449,"z":0,"o":20902.35,"c":20891.7,"h":20915,"l":20890.44,"s":1673731320000,"e":1673731380000}]
+store_time: 43 update frontend_time: 92
+begin: 63809396642004, after: 63809396642139, processing_time: 135, data: [{"ev":"XA","pair":"BTC-USD","v":9.89081559,"vw":20893.6442,"z":0,"o":20893.61,"c":20890.42,"h":20902,"l":20888.58,"s":1673731380000,"e":1673731440000}]
+store_time: 42 update frontend_time: 144
+begin: 63809396702023, after: 63809396702209, processing_time: 186, data: [{"ev":"XA","pair":"BTC-USD","v":12.61860843,"vw":20890.758,"z":0,"o":20890.27,"c":20891,"h":20900,"l":20888,"s":1673731440000,"e":1673731500000}]
+store_time: 85 update frontend_time: 102
+begin: 63809396762030, after: 63809396762217, processing_time: 187, data: [{"ev":"XA","pair":"BTC-USD","v":28.18767726,"vw":20897.5968,"z":0,"o":20891.1,"c":20909.43,"h":20909.59,"l":20886.42,"s":1673731500000,"e":1673731560000}]
+store_time: 42 update frontend_time: 275
+begin: 63809397242091, after: 63809397242409, processing_time: 318, data: [{"ev":"XA","pair":"BTC-USD","v":27.90014992,"vw":20882.5048,"z":0,"o":20884.19,"c":20889.66,"h":20901,"l":20873.02,"s":1673731980000,"e":1673732040000}]
+store_time: 101 update frontend_time: 112
+begin: 63809397302009, after: 63809397302222, processing_time: 213, data: [{"ev":"XA","pair":"BTC-USD","v":21.25985123,"vw":20881.5443,"z":0,"o":20889.62,"c":20880.05,"h":20896,"l":20875.18,"s":1673732040000,"e":1673732100000}]
+store_time: 43 update frontend_time: 118
+begin: 63809397362105, after: 63809397362266, processing_time: 161, data: [{"ev":"XA","pair":"BTC-USD","v":26.72363882,"vw":20884.6409,"z":0,"o":20878.2,"c":20879,"h":20893,"l":20877.49,"s":1673732100000,"e":1673732160000}]
+store_time: 45 update frontend_time: 88
+begin: 63809397422112, after: 63809397422246, processing_time: 134, data: [{"ev":"XA","pair":"BTC-USD","v":15.96399539,"vw":20883.7192,"z":0,"o":20877.52,"c":20888.24,"h":20894,"l":20873.21,"s":1673732160000,"e":1673732220000}]
+store_time: 91 update frontend_time: 93
+begin: 63809397482120, after: 63809397482304, processing_time: 184, data: [{"ev":"XA","pair":"BTC-USD","v":35.21339521,"vw":20903.3532,"z":0,"o":20887.45,"c":20904.69,"h":20915.93,"l":20882.29,"s":1673732220000,"e":1673732280000}]
+store_time: 42 update frontend_time: 88
+begin: 63809397542009, after: 63809397542139, processing_time: 130, data: [{"ev":"XA","pair":"BTC-USD","v":20.04726047,"vw":20899.2766,"z":0,"o":20905.33,"c":20891.55,"h":20914.2,"l":20888.76,"s":1673732280000,"e":1673732340000}]
+store_time: 41 update frontend_time: 133
+begin: 63809397602032, after: 63809397602207, processing_time: 175, data: [{"ev":"XA","pair":"BTC-USD","v":21.78019082,"vw":20892.0825,"z":0,"o":20892.68,"c":20903.52,"h":20903.52,"l":20884.09,"s":1673732340000,"e":1673732400000}]

@@ -12,7 +12,7 @@ Resources:
       Timeout: 60
       ImageUri: juliafunction:julia1.6-v1
     Metadata:
-      DockerContext: /Users/ruiren/Desktop/Mine/2022Fall/Course/AdvancedSystem/stockBackend
+      DockerContext: /Users/ruiren/Desktop/Software/Lab/RealTimeStockSystemModel.jl
       DockerTag: julia1.6-v1
       Dockerfile: Dockerfile
       SamResourceId: JuliaFunction

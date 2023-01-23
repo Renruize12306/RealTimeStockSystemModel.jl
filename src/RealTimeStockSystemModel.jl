@@ -1,9 +1,10 @@
-module stockBackend
+module RealTimeStockSystemModel
 
 using JSON
 
 # Define a handler function that is called by the Lambda runtime
 function handle_event(event_data, headers)
+    # Pkg.instantiate();
     @info "Handling request" event_data headers
     @info "create DynamoDB"
     # include("src/createDynamoDB.jl")

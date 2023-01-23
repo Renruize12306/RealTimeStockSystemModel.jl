@@ -46,4 +46,4 @@ COPY bootstrap .
 WORKDIR /opt/extensions
 
 # Which module/function to call?
-CMD ["stockBackend.handle_event"]
+CMD ["RealTimeStockSystemModel.handle_event"]

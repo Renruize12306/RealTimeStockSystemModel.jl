@@ -5,7 +5,6 @@ import * as mutations from "./graphql/mutations"; //codegen generated code
 
 //AppSync endpoint settings
 const myAppConfig = {
-  //dy7jj5l4fvgdfhyxw2lwzneimy
   aws_appsync_graphqlEndpoint:
     "https://63sork6mwnau7oykuaipt4nquy.appsync-api.us-east-1.amazonaws.com/graphql",
   aws_appsync_region: "us-east-1",
