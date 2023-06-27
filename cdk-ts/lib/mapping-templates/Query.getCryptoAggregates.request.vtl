@@ -1,0 +1,11 @@
+{
+    "version" : "2017-02-28",
+    "operation" : "Query",
+    "query": {
+        "expression" : "ev_pair = :ev_pair",
+        "expressionValues" : {
+            ":ev_pair" : $util.dynamodb.toDynamoDBJson($context.arguments.ev_pair)
+        }
+    },
+    "limit": $util.defaultIfNull(${ctx.args.num}, 20)
+}

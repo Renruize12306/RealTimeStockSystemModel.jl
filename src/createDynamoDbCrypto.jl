@@ -52,3 +52,5 @@ param = Dict("ProvisionedThroughput" => Dict(
 ))
 @service Dynamodb
 Dynamodb.create_table(attribute_definitions, key_schema, table_name, param)
+
+# include("src/createDynamoDbCrypto.jl")

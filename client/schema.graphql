@@ -4,6 +4,24 @@
   subscription: Subscription
 }
 
+type Aggregate {
+  c: Float
+  create_time: AWSTimestamp
+  e: AWSTimestamp
+  ev_pair: String
+  h: Float
+  l: Float
+  o: Float
+  s: AWSTimestamp
+  v: Float
+  vw: Float
+  z: Int
+}
+
+type AggregateList {
+  items: [Aggregate]
+}
+
 type Channel {
   data: AWSJSON!
   name: String!
@@ -14,6 +32,7 @@ type Mutation {
 }
 
 type Query {
+  getAggregatesPerSecondCrypto(ev_pair: String!, limit: Int): AggregateList
   getChannel: Channel
 }
 

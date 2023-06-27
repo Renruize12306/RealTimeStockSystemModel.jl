@@ -1,0 +1,19 @@
+{
+    "version" : "2018-05-29",
+    "operation" : "PutItem",
+    "key" : {
+        "ev_pair": $util.dynamodb.toDynamoDBJson("$ctx.args.ev_pair"),
+        "create_time": $util.dynamodb.toDynamoDBJson($ctx.args.create_time)
+    },
+    "attributeValues" : {
+        "c": $util.dynamodb.toDynamoDBJson($ctx.args.c),
+    	"e": $util.dynamodb.toDynamoDBJson($ctx.args.e),
+        "h": $util.dynamodb.toDynamoDBJson($ctx.args.h),
+        "l": $util.dynamodb.toDynamoDBJson($ctx.args.l),
+        "o": $util.dynamodb.toDynamoDBJson($ctx.args.o),
+        "s": $util.dynamodb.toDynamoDBJson($ctx.args.s),
+        "v": $util.dynamodb.toDynamoDBJson($ctx.args.v),
+        "vw": $util.dynamodb.toDynamoDBJson($ctx.args.vw),
+        "z": $util.dynamodb.toDynamoDBJson($ctx.args.z),
+    }
+}

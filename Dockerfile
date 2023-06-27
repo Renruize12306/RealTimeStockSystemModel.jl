@@ -10,6 +10,10 @@ WORKDIR /usr/local
 RUN yum install yum-plugin-security
 RUN yum install -y tar gzip
 
+COPY .aws/ /usr/local/.aws/
+ENV AWS_ACCESS_KEY_ID=AKIA6PY3MVDUYQIONZSS
+ENV AWS_SECRET_ACCESS_KEY=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
+
 # Download the Julia x86_64 binary (only one compatible w/ AWS Lambda)
 RUN curl -fL -o julia.tar.gz "https://julialang-s3.julialang.org/bin/linux/x64/${FOLDER}/julia-${JULIA_VERSION}-linux-x86_64.tar.gz"
 

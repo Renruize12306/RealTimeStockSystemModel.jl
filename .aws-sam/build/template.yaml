@@ -9,10 +9,17 @@ Resources:
     Properties:
       PackageType: Image
       MemorySize: 1028
-      Timeout: 60
+      Timeout: 100
+      Policies:
+      - Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Action:
+          - dynamodb:PutItem
+          Resource: arn:aws:dynamodb:us-east-1:995952994537:table/dynamoAggregatesPerSecondCrypto
       ImageUri: juliafunction:julia1.6-v1
     Metadata:
-      DockerContext: /Users/ruiren/Desktop/Software/Lab/RealTimeStockSystemModel.jl
+      DockerContext: /Users/ruiren/Desktop/Software/Lab/System/RealTimeStockSystemModel.jl
       DockerTag: julia1.6-v1
       Dockerfile: Dockerfile
       SamResourceId: JuliaFunction

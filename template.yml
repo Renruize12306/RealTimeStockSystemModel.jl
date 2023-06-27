@@ -9,7 +9,15 @@ Resources:
     Properties:
       PackageType: Image
       MemorySize: 1028
-      Timeout: 60
+      Timeout: 100
+      Policies:
+        - Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action:
+                - dynamodb:PutItem  # Add the desired action(s) here
+              Resource: 'arn:aws:dynamodb:us-east-1:995952994537:table/dynamoAggregatesPerSecondCrypto'  # Modify this to restrict access to specific DynamoDB table(s) if needed
+
     Metadata:
       Dockerfile: Dockerfile
       DockerContext: .

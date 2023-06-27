@@ -1,4 +1,6 @@
 constant.jl
 .DS_Store
 .aws-sam
-
+src/dummy/*
+cdk/*
+client-ts/*

@@ -1,4 +1,3 @@
-include("../constant.jl")
 include("updateDynamoDbCrypto.jl")
 using WebSockets, JSON
 
@@ -23,7 +22,7 @@ function subscribe_data(ws, arr)
     counter = 0
     data_to_save = Vector{Int64}()
     
-    while isopen(ws) && counter < 10
+    while isopen(ws) 
         received_data, success = readguarded(ws)
         if success
             # will convert this to the map
@@ -33,8 +32,8 @@ function subscribe_data(ws, arr)
             time_before_processing = Dates.value(now())
             process_websocket_data(data)
             time_after_processing = Dates.value(now())
-            print("begin: ", time_before_processing, ", after: ",time_after_processing, ", processing_time: ", time_after_processing - time_before_processing,", ")
-            print("data: ", data, "\n")
+            print("begin: ", time_before_processing, ", after: ",time_after_processing, ", processing_time: ", time_after_processing - time_before_processing,", \n")
+            @info "streamed data" data
             # keep track of processing times
             counter+=1
             append!(data_to_save, time_after_processing - time_before_processing)
@@ -58,8 +57,12 @@ function open_websocket(arr)
     end
 end
 
+include("constant.jl")
 json_data = JSON.parse(String(event_data))
-json_data["input_json"]
+println(json_data["input_json"])
 
-# @async 
-open_websocket(json_data["input_json"])
+task = @async open_websocket(json_data["input_json"])
+
+# open_websocket(json_data["input_json"])
+# # schedule(task, InterruptException(), error=true)
+# # include("src/streamWSData.jl")

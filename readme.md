@@ -14,9 +14,10 @@ Running docker
 ```bash
 sam build
 ```
+Folder .aws-sam will be generated
 
 ```bash
-sam deploy -guided
+sam deploy --guided
 ```
 
 configure the constant.jl file
@@ -24,3 +25,20 @@ configure the constant.jl file
 AUTH_PARAM=API_KRY 
 # this is acquired from the Polygon.io -> dashboard -> API Keys
 ```
+
+
+install CDK
+```bash
+mkdir cdk-ts
+cd cdk-ts
+cdk init app --language typescript
+cd CDK
+npm install
+cdk deploy
+```
+export schema add to client folder
+
+amplify add codegen --apiId o3wpf56iyfaelo25jmaxexh2va
+
+
+This is with various AWS resources version
