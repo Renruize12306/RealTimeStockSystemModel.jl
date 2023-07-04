@@ -1,11 +1,11 @@
 using JSON, Dates
-using AWS.AWSServices: dynamodb
-using AWS: @service
+# using AWS.AWSServices: dynamodb
+# using AWS: @service
 include("mutateAppSync.jl")
 
-@service Dynamodb
+# @service Dynamodb
 
-function process_websocket_data(string_data::AbstractString)
+function process_websocket_data(string_data::AbstractString, data_to_save::Vector{Int64})
     time_before_data_rec = Dates.value(now())
     data = JSON.parse(string_data)
     data_single = data[1]
@@ -45,7 +45,9 @@ function process_websocket_data(string_data::AbstractString)
     time_after_store = Dates.value(now())
     notify_user(data_single)
     time_after_notify_frontend = Dates.value(now())
-    println("Update frontend_time: ", time_after_notify_frontend - time_after_store)
+    time_consumption = time_after_notify_frontend - time_after_store
+    println("Update database and frontend time: ", time_consumption)
+    append!(data_to_save, time_consumption)
 end
 
 # process_websocket_data("[{\"ev\":\"A\",\"sym\":\"AMZN\",\"v\":106,\"av\":128413215,\"op\":92.47,\"vw\":89.2434,\"o\":89.24,\"c\":89.24,\"h\":89.24,\"l\":89.24,\"a\":90.4249,\"z\":53,\"s\":1667515806000,\"e\":1667515807000}]")

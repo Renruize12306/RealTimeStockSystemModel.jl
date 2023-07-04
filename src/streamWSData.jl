@@ -22,21 +22,21 @@ function subscribe_data(ws, arr)
     counter = 0
     data_to_save = Vector{Int64}()
     
-    while isopen(ws) 
+    while isopen(ws) && counter < 33
         received_data, success = readguarded(ws)
         if success
             # will convert this to the map
             # data = JSON.parse(String(data))
             # println(JSON.parse(String(received_data)))
             data = String(received_data)
-            time_before_processing = Dates.value(now())
-            process_websocket_data(data)
-            time_after_processing = Dates.value(now())
-            print("begin: ", time_before_processing, ", after: ",time_after_processing, ", processing_time: ", time_after_processing - time_before_processing,", \n")
+            # time_before_processing = Dates.value(now())
+            process_websocket_data(data, data_to_save)
+            # time_after_processing = Dates.value(now())
+            # print("begin: ", time_before_processing, ", after: ",time_after_processing, ", processing_time: ", time_after_processing - time_before_processing,", \n")
             @info "streamed data" data
             # keep track of processing times
             counter+=1
-            append!(data_to_save, time_after_processing - time_before_processing)
+            # append!(data_to_save, time_after_processing - time_before_processing)
         end
     end
     print(data_to_save)
@@ -61,7 +61,7 @@ include("constant.jl")
 json_data = JSON.parse(String(event_data))
 println(json_data["input_json"])
 
-task = @async open_websocket(json_data["input_json"])
+task = @async open_websocket(json_data["input_json"]);
 
 # open_websocket(json_data["input_json"])
 # # schedule(task, InterruptException(), error=true)

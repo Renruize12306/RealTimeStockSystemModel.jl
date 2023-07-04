@@ -1,5 +1,5 @@
 using HTTP, JSON, Dates
-headers = ["x-api-key" => "da2-pvyoywivrfdebh7mjmjpklssae"]
+headers = ["x-api-key" => "da2-7lbuvsokandvnp7rol5kwhibae"]
 url = "https://u6bjowlbgzapppjwfzetw5go2u.appsync-api.us-east-1.amazonaws.com/graphql"
 
 function notify_user(data_single)

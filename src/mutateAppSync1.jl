@@ -1,6 +1,6 @@
 using HTTP, JSON, Dates
 headers = [
-        "x-api-key" => "da2-pvyoywivrfdebh7mjmjpklssae"
+        "x-api-key" => "da2-7lbuvsokandvnp7rol5kwhibae"
     ]
 data = "{\"a1\":\"aiyaaiya\",\"b2\":\"balabala\"}"
 test_body = "{\"query\":\"mutation Publish2channel(\$data: AWSJSON!, \$name: String!) {\\n  publish2channel(data: \$data, name: \$name) {\\n    data\\n    name\\n  }\\n}\\n\",\"variables\":{\"name\":\"ruize\",\"data\":\"{\\\"la\\\":\\\"ha\\\"}\"}}"
